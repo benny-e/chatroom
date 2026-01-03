@@ -7,13 +7,13 @@ Requirements:
 Installation:    
 Clone the repository and install dependencies:  
 
-'''bash
+```bash
 git clone https://github.com/benny-e/chatroom   
 cd chatroom  
 python -m venv .venv  
 source .venv/bin/activate  
 pip install -e .  
-
+```
 
 Usage:  
 The application is run using the chatroom command, which is installed when  
@@ -27,24 +27,25 @@ Default port: 5555
 
 
 Starting the server:  
-Start the server using default settings (binds to all interfaces on port 5555):  
-'''bash 
+Start the server using default settings (binds to all interfaces on port 5555):   
+
+```bash
 chatroom --server
-
+```
 To run the server on a custom port: 
-'''bash 
+```bash
 chatroom --server --port <port> 
-
+```
 Stop the server with Ctrl + C.  
 
 
 Start the client:  
-'''bash
+```bash
 chatroom --host <server-ip>  
-
+```
 Connect using a custom port:  
-'''bash
+```bash
 chatroom --host <server-ip> --port <port>  
-
+```
 Type <exit> when connected to disconnect
 
