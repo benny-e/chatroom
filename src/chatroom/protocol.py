@@ -5,7 +5,6 @@ MAX_FRAME = 256 * 1024
 CONTROL_EXIT = b"__EXIT__"
 
 def send_frame(sock, payload: bytes) -> None:
-    #4-byte big-endian length prefix
     sock.sendall(struct.pack("!I", len(payload)) + payload)
 
 def recv_exact(sock, n: int) -> bytes:
