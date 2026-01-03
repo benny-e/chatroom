@@ -7,9 +7,9 @@ Installation
 Clone the repository and install dependencies:
 
 
-git clone <repo-url>
-cd chatroom
-python -m venv .venv
-source .venv/bin/activate
-pip install -e .
+git clone https://github.com/benny-e/chatroom   
+cd chatroom  
+python -m venv .venv  
+source .venv/bin/activate  
+pip install -e .  
 
