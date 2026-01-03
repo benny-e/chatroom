@@ -1,0 +1,49 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual environments ----
+.venv/
+venv/
+ENV/
+env/
+
+# ---- Build / packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Test / coverage ----
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# ---- Type check / lint caches ----
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+
+# ---- IDE / editor ----
+.vscode/
+.idea/
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs / local runtime files ----
+*.log
+
+# ---- Secrets ----
+.env
+.env.*
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+
