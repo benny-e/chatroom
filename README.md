@@ -6,7 +6,7 @@ Requirements
 Installation
 Clone the repository and install dependencies:
 
-```bash
+
 git clone <repo-url>
 cd chatroom
 python -m venv .venv
