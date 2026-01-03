@@ -47,5 +47,5 @@ Connect using a custom port:
 ```bash
 chatroom --host <server-ip> --port <port>  
 ```
-Type <exit> when connected to disconnect
+Type '<exit>' when connected to disconnect
 
