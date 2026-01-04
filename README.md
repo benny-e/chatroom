@@ -12,12 +12,12 @@ git clone https://github.com/benny-e/chatroom
 cd chatroom  
 python -m venv .venv  
 source .venv/bin/activate  
-pip install -e .  
+pip install .  
 ```
 
 Usage:  
-The application is run using the chatroom command, which is installed when  
-the project is installed in editable mode.  
+The application is run using the chatroom command, which is created when  
+the project is installed.  
 
 
 Defaults:  
@@ -47,5 +47,5 @@ Connect using a custom port:
 ```bash
 chatroom --host <server-ip> --port <port>  
 ```
-Type '<exit>' when connected to disconnect
+Type `<exit>` when connected to disconnect
 
